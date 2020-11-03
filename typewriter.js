@@ -1,4 +1,4 @@
-const sentence = "hello there from lighthouse labs";
+const sentence = "hellooooo there from lighthouse labs";
 let count = 0;
 
 for (const char of sentence) {
@@ -7,3 +7,11 @@ for (const char of sentence) {
   }, count * 50);
   count++;
 }  
+
+setTimeout( () => {
+  console.log('\n')
+}, 55 * sentence.length )
+
+
+
+
